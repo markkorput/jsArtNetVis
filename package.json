@@ -1,0 +1,36 @@
+{
+  "name": "ArtNetVis",
+  "version": "0.0.1",
+  "description": "ArtNet-DMX-receiver and visualizer for nodejs",
+  "main": "example_ws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint --ignore-path .gitignore . --max-warnings 0",
+    "lintfix": "eslint --ignore-path .gitignore --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markkorput/jsArtNetVis.git"
+  },
+  "keywords": [
+    "artnet",
+    "dmx"
+  ],
+  "author": "shortnotion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markkorput/jsArtNetVis/issues"
+  },
+  "homepage": "https://github.com/markkorput/jsArtNetVis#readme",
+  "dependencies": {
+    "dmxnet": "^0.4.0",
+    "express": "^4.17.1",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-jsdoc": "^15.9.10",
+    "eslint-plugin-node": "^10.0.0",
+    "jsdoc": "^3.6.3"
+  }
+}
